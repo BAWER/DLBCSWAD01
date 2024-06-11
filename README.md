@@ -36,7 +36,10 @@ this will contain all git command
 
 * `git reset --hard HEAD~1` -> Please be cautious when using git reset --hard as it will remove all changes in the last commit permanently
 * `git log` -> this will shows all commit history so we can undo spesfic one 
+* `git log --format=fuller or raw` -> this will show log with more info
+* Use the `git log --oneline` command to check the new commit; the --one line option allows us to see the log in a more compact way.
 * `git reset commit id` -> id will be get it for git log 47dc221b25b5de57e28d90f2f1a1a92ece29a67e
+* By using the `git cat-file –p` command, we can display the contents of the tree.  
 
 * ***Please note after push this will not work we can use flowing to undo change after push command ***
 * `git revert <commit_id>` -> by using this we can revert spesfic commit and we can do commit again in order to chnage it in github 
